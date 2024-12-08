@@ -5,6 +5,14 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeBlog.Web", "YoutubeBlog.Web\YoutubeBlog.Web.csproj", "{3D6CB773-EED3-449A-8D38-4F114000B172}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeBlog.Entity", "YoutubeBlog.Entity\YoutubeBlog.Entity.csproj", "{289E63A5-5C72-421A-BA3C-A9BDA04C652B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeBlog.Dal", "YoutubeBlog.Dal\YoutubeBlog.Dal.csproj", "{97B9FF4C-4271-4E85-A4F7-E88FBC910D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeBlog.Service", "YoutubeBlog.Service\YoutubeBlog.Service.csproj", "{05E4CA15-99D8-49D1-843C-A722B2B8AB87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeBlog.Core", "YoutubeBlog.Core\YoutubeBlog.Core.csproj", "{8F1E013E-F747-4299-9544-6666E2BA9881}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{3D6CB773-EED3-449A-8D38-4F114000B172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D6CB773-EED3-449A-8D38-4F114000B172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D6CB773-EED3-449A-8D38-4F114000B172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289E63A5-5C72-421A-BA3C-A9BDA04C652B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289E63A5-5C72-421A-BA3C-A9BDA04C652B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289E63A5-5C72-421A-BA3C-A9BDA04C652B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289E63A5-5C72-421A-BA3C-A9BDA04C652B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B9FF4C-4271-4E85-A4F7-E88FBC910D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B9FF4C-4271-4E85-A4F7-E88FBC910D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B9FF4C-4271-4E85-A4F7-E88FBC910D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B9FF4C-4271-4E85-A4F7-E88FBC910D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E4CA15-99D8-49D1-843C-A722B2B8AB87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E4CA15-99D8-49D1-843C-A722B2B8AB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E4CA15-99D8-49D1-843C-A722B2B8AB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E4CA15-99D8-49D1-843C-A722B2B8AB87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1E013E-F747-4299-9544-6666E2BA9881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1E013E-F747-4299-9544-6666E2BA9881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1E013E-F747-4299-9544-6666E2BA9881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1E013E-F747-4299-9544-6666E2BA9881}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
